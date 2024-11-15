@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="admin-navbar">
+        <ul>
+            <li><a href="#user-management">User Management</a></li>
+            <li><a href="#permission-management">Permission Management</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
 
+    <!-- User Management Section -->
+    <section id="user-management">
+        <h2>User Management</h2>
+        <button class="add-user-btn">Add New User</button>
+        <table id="user-table">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="users-data"></tbody>
+        </table>
+    </section>
+
+    <!-- Permission Management Section -->
+    <section id="permission-management">
+        <h2>Permission Management</h2>
+        <button class="add-permission-btn">Add New Permission</button>
+        <table id="permission-table">
+            <thead>
+                <tr>
+                    <th>Permission Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="permissions-data"></tbody>
+        </table>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard">
+        <h2>Dashboard</h2>
+        <div class="dashboard-content">
+            <!-- You can add your content here, for example: welcome message -->
+            <p>Welcome to the admin panel!</p>
+        </div>
+    </section>
+
+    <!-- Logout Button -->
+    <button class="logout-btn">Logout</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
