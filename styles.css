@@ -1,0 +1,39 @@
+/* styles.css */
+
+.admin-navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.admin-navbar ul {
+    list-style-type: none;
+}
+
+.admin-navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.add-user-btn, .add-permission-btn {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#user-table, #permission-table {
+    width: 50%;
+    margin-left: 25%;
+    font-family: Arial, sans-serif;
+}
+
+#users-data, #permissions-data {
+    display: table-row;
+}
+
+#dashboard-content {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
